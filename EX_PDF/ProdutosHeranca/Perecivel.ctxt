@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Perecivel
+comment0.text=\n\ Subclasse\ Perecivel\ \n\ \n\ Silvana\ Teodoro\ \n\ \n
+comment1.params=n\ d\ v\ dV
+comment1.target=Perecivel(java.lang.String,\ java.lang.String,\ double,\ Data)
+comment1.text=\n\ Construtor\ para\ objetos\ da\ subclasse\ Perecivel\n
+comment2.params=
+comment2.target=Data\ getDataValidade()
+comment3.params=dV
+comment3.target=void\ setDataValidade(Data)
+comment4.params=dataRecebida
+comment4.target=boolean\ verificaProdutoVencido(Data)
+comment4.text=\n\ Retorna\ o\ false\ se\ o\ produto\ n\u00E3o\ est\u00E1\ vencido\ de\ acordo\ com\ a\ dataRecebida\ e\ a\ dataValidade.\n\ Retorna\ o\ true\ se\ o\ produto\ est\u00E1\ vencido\ de\ acordo\ com\ a\ dataRecebida.\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

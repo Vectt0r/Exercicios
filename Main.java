@@ -1,39 +1,22 @@
+import java.util.Scanner;
+
 public class Main {
-    public static class ContaCorrente{
-        int numeroConta;
-        double saldoAtual;
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-        public int getNumeroConta() {
-            return numeroConta;
-        }
-        public void setNumeroConta(int numeroConta) {
-            this.numeroConta = numeroConta;
-        }
-        public double getSaldoAtual() {
-            return saldoAtual;
-        }
-        public void setSaldoAtual(double saldoAtual) {
-            this.saldoAtual = saldoAtual;
-        }
+        System.out.println("\nPrimeiro Numero: ");
+        int valor1 = scanner.nextInt();
 
-        // @Override
-        public String toString(){
-            return "Conta Corrente\n Numero da Conta = " + numeroConta + " \n Saldo Atual = " + saldoAtual;
-        }
-    }
-    public static void main(String[] args){
-        ContaCorrente conta1 = new ContaCorrente();
-        conta1.setNumeroConta(1234);
-        conta1.setSaldoAtual(100.00);
+        System.out.println("Segundo Numero: ");
+        int valor2 = scanner.nextInt();
 
-        ContaCorrente conta2 = new ContaCorrente();
-        conta2.setNumeroConta(8765);
-        conta2.setSaldoAtual(-98.00);
-
-        ContaCorrente conta3 = new ContaCorrente();
-        conta3.setNumeroConta(3342);
-        conta3.setSaldoAtual(3445.80);
-
-        System.out.println(conta1);
+        Calculadora calcular = new Calculadora(valor1, valor2);
+        System.out.println(calcular.toString());        // System.out.println("A soma dos números: " + valor1 + " + " + valor2 + " é " + calcular.Somar());
+        // System.out.println("A Multiplicação dos números: " + valor1 + " x " + valor2 + " é " + calcular.Multiplicar());
+        // System.out.println("A Divisão dos números: " + valor1 + " / " + valor2 + " é " + calcular.Dividir());
+        // System.out.println("A Subtração dos números: " + valor1 + " - " + valor2 + " é " + calcular.Subtrair());
+        // System.out.println("A representação binária: " + calcular.DecimalParaBinario());
     }
 }
+
+

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Cadeira
+comment1.params=cor
+comment1.target=Cadeira(Cor)
+comment2.params=aluno
+comment2.target=void\ setAluno(Aluno)
+comment3.params=
+comment3.target=Aluno\ getAluno()
+comment4.params=
+comment4.target=Cor\ getCor()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

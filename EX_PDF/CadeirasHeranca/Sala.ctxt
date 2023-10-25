@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Sala
+comment1.params=nome\ cadeira1\ cadeira2\ cadeira3\ cadeira4
+comment1.target=Sala(java.lang.String,\ Cadeira,\ Cadeira,\ Cadeira,\ Cadeira)
+comment10.params=
+comment10.target=void\ exibeDataUltimaManutencao()
+comment11.params=nome
+comment11.target=Cadeira\ localizarAluno(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=
+comment3.target=int\ cadeirasDisponiveis()
+comment4.params=
+comment4.target=int\ cadeirasComRodinhasDisponiveis()
+comment5.params=
+comment5.target=int\ cadeirasComMesaDisponiveis()
+comment6.params=aluno\ tipoCadeira
+comment6.target=Cadeira\ entraAluno(Aluno,\ java.lang.String)
+comment6.text=\n\ Crie\ um\ m\u00E9todo\ chamado\ entraAluno,\ que\ recebe\ um\ objeto\ \ do\ tipo\ Aluno\ e\ uma\ String\ que\n\ representa\ o\ tipo\ de\ cadeira\ que\ ele\ quer\ sentar\ por\ par\u00E2metro.\n\ O\ par\u00E2metro\ do\ tipo\ de\ cadeira\ ter\u00E1\ dois\ valores\:\ \u201Cmesa\u201D\ ou\ \u201Crodinha\u201D.\ Assim\ sendo,\ o\ m\u00E9todo\n\ deve\ colocar\ o\ aluno\ recebido\ por\ par\u00E2metro\ em\ uma\ cadeira\ do\ tipo\ desejado.\ Caso\ n\u00E3o\ tenha\n\ cadeira\ do\ tipo\ desejado\ dispon\u00EDvel,\ o\ aluno\ deve\ sentar\ em\ uma\ cadeira\ de\ outro\ tipo\ que\n\ estiver\ dispon\u00EDvel.\ O\ m\u00E9todo\ retorna\ a\ cadeira\ que\ o\ aluno\ sentou\ ou\ null\ caso\ n\u00E3o\ haja\ cadeiras\n\ dispon\u00EDveis.\n
+comment7.params=aluno
+comment7.target=Cadeira\ incluiAlunoCadeiraMesa(Aluno)
+comment8.params=aluno
+comment8.target=Cadeira\ incluiAlunoCadeiraRodinha(Aluno)
+comment9.params=
+comment9.target=void\ exibeAreaMesas()
+numComments=12

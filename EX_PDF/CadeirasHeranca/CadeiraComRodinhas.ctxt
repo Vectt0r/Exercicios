@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=CadeiraComRodinhas
+comment1.params=cor\ dataUltimaManutencao
+comment1.target=CadeiraComRodinhas(Cor,\ Data)
+comment2.params=
+comment2.target=Data\ getDataUltimaManutencao()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=NaoPerecivel
+comment0.text=\n\ Subclasse\ NaoPerecivel\ \n\ \n\ Silvana\ Teodoro\n\ \n
+comment1.params=n\ d\ v\ dF
+comment1.target=NaoPerecivel(java.lang.String,\ java.lang.String,\ double,\ Data)
+comment1.text=\n\ Construtor\ para\ objetos\ da\ subclasse\ NaoPerecivel\n
+comment2.params=
+comment2.target=Data\ getDataFabricacao()
+comment3.params=dF
+comment3.target=void\ setDataFabricacao(Data)
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

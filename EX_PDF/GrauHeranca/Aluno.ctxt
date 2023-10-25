@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Aluno
+comment1.params=nome\ ga\ gb
+comment1.target=Aluno(java.lang.String,\ GrauA,\ GrauB)
+comment2.params=
+comment2.target=java.lang.String\ getNome()
+comment3.params=
+comment3.target=GrauA\ getGa()
+comment4.params=
+comment4.target=GrauB\ getGb()
+comment5.params=nome
+comment5.target=void\ setNome(java.lang.String)
+comment6.params=ga
+comment6.target=void\ setGa(GrauA)
+comment7.params=gb
+comment7.target=void\ setGb(GrauB)
+comment8.params=
+comment8.target=double\ calculaNotaFinal()
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10
