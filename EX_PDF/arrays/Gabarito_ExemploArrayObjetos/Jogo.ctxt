@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Jogo
+comment1.params=cod\ des\ val\ esc\ plat\ gen
+comment1.target=Jogo(int,\ java.lang.String,\ double,\ int,\ java.lang.String,\ java.lang.String)
+comment1.text=\n\ Construtor\n
+comment2.params=
+comment2.target=java.lang.String\ getPlataforma()
+comment3.params=
+comment3.target=java.lang.String\ getGenero()
+comment4.params=plat
+comment4.target=void\ setPlataforma(java.lang.String)
+comment5.params=gen
+comment5.target=void\ setGenero(java.lang.String)
+comment6.params=
+comment6.target=void\ exibeDados()
+numComments=7

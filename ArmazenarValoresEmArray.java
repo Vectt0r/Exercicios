@@ -21,7 +21,7 @@ public class ArmazenarValoresEmArray {
 
                 int escolha = scanner.nextInt();
 
-                int[] array = {valor1};
+                int[] array = {valor1, valor2};
                 int[] array1 = {valor2};
 
                 Repetidor(escolha, array, array1);

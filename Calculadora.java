@@ -50,10 +50,10 @@ public class Calculadora {
 
     @Override
     public String toString() {
-        return  "A soma dos números:" + Somar() + 
-                "\nA Multiplicação dos numeros:" + Multiplicar() +
-                "\nA Divisão dos numeros:" + Dividir() +
-                "\nA Subtração dos numeros:" + Subtrair();
+        return  "A soma dos números: " + Somar() + 
+                "\nA Multiplicação dos numeros: " + Multiplicar() +
+                "\nA Divisão dos numeros: " + Dividir() +
+                "\nA Subtração dos numeros: " + Subtrair();
     }
     
 }
